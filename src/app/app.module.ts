@@ -12,7 +12,7 @@ import{httpClientModule} from '@angular/common/http';
   ],
   imports: [
     BrowserModule
-    HttpClienModule
+    httpClientModule
   ],
   providers: [WeatherService],
   bootstrap: [AppComponent]

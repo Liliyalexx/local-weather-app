@@ -13,5 +13,5 @@ export interface ICurrentWeatherData {
     country: string
   },
   dt: number,
-  name
+  name:Bethesda
 }

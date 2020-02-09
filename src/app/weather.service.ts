@@ -14,4 +14,3 @@ export class WeatherService {
       `${environment.baseUrl}api.openweathermap.org/data/2.5/weather?q${city},${country}&appid=${environment.appId}'
     )
   }
-}
