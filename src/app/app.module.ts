@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { CurrentWeatherComponent } from './current-weather/current-weather.component';
 import {WeatherService} from './weather.service'
 import{httpClientModule} from '@angular/common/http';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +14,6 @@ import{httpClientModule} from '@angular/common/http';
   ],
   imports: [
     BrowserModule
-    httpClientModule
   ],
   providers: [WeatherService],
   bootstrap: [AppComponent]
