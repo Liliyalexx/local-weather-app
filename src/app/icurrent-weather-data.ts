@@ -1,17 +1,16 @@
 export interface ICurrentWeatherData {
   weather:[
     {
-      description: 
-      string, 
-      icon:string
+      description: string, 
+      icon: string
     }
   ],
   main:{
-    temp:number
+    temp: number
   },
   sys:{
     country: string
   },
   dt: number,
-  name:Bethesda
+  name: string
 }

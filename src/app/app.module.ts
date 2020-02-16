@@ -4,16 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CurrentWeatherComponent } from './current-weather/current-weather.component';
 import {WeatherService} from './weather.service'
-import{httpClientModule} from '@angular/common/http';
+import{HttpClientModule} from '@angular/common/http';
+import { CitySearchComponent } from './city-search/city-search.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CurrentWeatherComponent
+    CurrentWeatherComponent,
+    CitySearchComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [WeatherService],
   bootstrap: [AppComponent]
