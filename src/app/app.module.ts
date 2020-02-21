@@ -7,7 +7,7 @@ import {WeatherService} from './weather.service'
 import{HttpClientModule} from '@angular/common/http';
 import { CitySearchComponent } from './city-search/city-search.component';
 import 'hammerjs';
-import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
