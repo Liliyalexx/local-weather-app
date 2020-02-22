@@ -1,5 +1,7 @@
 
+<body>
   
+</body>
   <div *ngIf = "current">
 
    
@@ -9,7 +11,7 @@
     <span>{{current.date | date:'fullDate'}} </span>
   </div>
   <div>
-  <img [src]='current.image'/>
+  <img [src]="current.image"/>
   <span> >{{current.temperature | number:'1.0-0'}} &#8457;</span>
     
   </div>
@@ -17,5 +19,4 @@
     {{current.description}}
   </div>
   </div>
-
-  
+</body>
